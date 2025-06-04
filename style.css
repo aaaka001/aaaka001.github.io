@@ -1,0 +1,50 @@
+.frontPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    background-color: #91393992;
+    font-family: Arial, sans-serif;
+    color: #333;
+    position: sticky;
+    width: 100%;
+    height: 96vh;
+    font-size: 50px;
+}
+
+.omMeg {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr ;
+    gap: 20px;
+    grid-template-areas: 
+        "image text"
+        "image text";
+    
+    align-items: center;
+}
+
+.omMegTxt {
+    grid-area: text;
+    font-size: 20px;
+}
+
+.image {
+    grid-area: image;
+    display: flex;
+    justify-content: right;
+}
+
+.text {
+    grid-area: text;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+
+}
+
+.underTittel {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
