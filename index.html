@@ -7,23 +7,45 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div>
-        <h1 class="frontPage">Min portfolio</h1>
+    <div class="frontPage overlayContent">
+      <div class="arrow left" onclick="changeSlide(-1)">&#10094;</div>
+      <div class="arrow right" onclick="changeSlide(1)">&#10095;</div>
+
+      <a class="button" href="portfolio.html">Portfolio</a>
+      <a class="button" href="cv.html">CV</a>
     </div>
 
     <h2 class="underTittel">Om meg</h2>
 
     <div class="omMeg">
-
         <div class="image"> 
           <img src="placeholder.png" alt="">
         </div>
         
         <div class="text omMegTxt"> 
-          <p>Jeg er en engasjert person som elsker å bidra til fornuft.</p>
-          <p>Utvikling er en av mine sterke sider, men jeg har også kjennskap til medieproduksjon og drift.</p>
+          <p>Jeg er en 17 år gammel gutt som er villig til å jobbe effektivt og gjøre ferdig arbeidet mitt.</p>
+          <p>Jeg er engasjert som ønsker å bidra til fornuftig.</p>
+          <p>IT-utvikling er en av mine sterke sider, men jeg har også kjennskap til medieproduksjon og drift.</p>
         </div>
       </div>
+
+      <div>
+        <h2 class="underTittel">Mine prosjekter</h2>
+        <div class="prosjektKontainer">
+          <div class="prosjekt">
+            <h3>Prosjekt 1</h3>
+            <p>Beskrivelse av prosjekt 1.</p>
+          </div>
+          <div class="prosjekt">
+            <h3>Prosjekt 2</h3>
+            <p>Beskrivelse av prosjekt 2.</p>
+          </div>
+          <div class="prosjekt">
+            <h3>Prosjekt 3</h3>
+            <p>Beskrivelse av prosjekt 3.</p>
+          </div>
+      </div>
       
+      <script src="script.js"></script>
 </body>
 </html>
