@@ -125,7 +125,7 @@ a {
     display: flex;
     grid-area: image;
     justify-content: right;
-    background-image: url('bilfer/placeholder.png');
+    background-image: url('bilder/placeholder.png');
     background-size: cover;
     background-position: center;
     width: 500px;  

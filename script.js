@@ -1,7 +1,7 @@
 const images = [
-    'bilfer/placeholder.png',
-    'bilfer/placeholder2.png',
-    'bilfer/placeholder3.png'
+    'bilder/placeholder.png',
+    'bilder/placeholder2.png',
+    'bilder/placeholder3.png'
 ];
 
 let current = 0
