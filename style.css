@@ -13,7 +13,6 @@ html, body {
 .frontPage {
     display: flex;
     position: relative;
-    background-image: url('placeholder.png');
     background-size: cover;
     background-position: center;
     justify-content: space-evenly;
@@ -29,6 +28,10 @@ html, body {
     
 }
 
+.smoothScroll {
+    scroll-behavior: smooth;
+}
+
 .arrow {
     position: absolute;
     top: 50%;
@@ -39,7 +42,7 @@ html, body {
     z-index: 3;
     user-select: none;
     padding: 10px;
-    transition: 0.3s;
+    transition: 0.6s;
   }
   
   .arrow.left {
@@ -68,7 +71,7 @@ html, body {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.6); 
+    background-color: rgba(0, 0, 0, 0.387); 
     z-index: 1;
     
   }
@@ -83,7 +86,7 @@ html, body {
 
 .button {
     background-color: white;
-    color: black;
+    color: rgb(0, 0, 0);
     padding: 15px 30px;
     text-decoration: none;
     border-radius: 10px;

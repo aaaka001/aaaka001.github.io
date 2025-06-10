@@ -1,6 +1,6 @@
 const images = [
-    'bilder/placeholder.png',
-    'bilder/placeholder2.png',
+    'bilder/gruppeBilde.JPG',
+    'bilder/photoshopOPPGAVE.png',
     'bilder/placeholder3.png'
 ];
 
@@ -17,4 +17,8 @@ function changeSlide(direction) {
         const img = new Image();
         img.src = src;
     });
+}
+
+function scrollToRow() {
+    document.getElementById("targetRow").scrollIntoView({ behavior: "smooth" });
 }
