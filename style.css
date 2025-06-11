@@ -95,6 +95,7 @@ html, body {
     z-index: 3; 
     font-size: 30px;
     position: relative; 
+    cursor: pointer;
 }
 
 a {
