@@ -10,6 +10,12 @@ html, body {
     font-family: Arial, sans-serif;
 }
 
+video {
+    width: 100%;
+    height: auto;
+
+}
+
 .frontPage {
     display: flex;
     position: relative;
@@ -31,6 +37,51 @@ html, body {
 .smoothScroll {
     scroll-behavior: smooth;
 }
+
+.popup {
+    display: none; /* Hidden by default */
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.7); /* Dark overlay */
+  }
+
+.popup-content {
+    position: relative;
+    background-color: #fff;
+    margin: 10% auto;
+    padding: 20px;
+    width: 80%;
+    max-width: 640px;
+    border-radius: 10px;
+  }
+
+.spillSnuttKnapp {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #f0f0f071;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+    cursor: pointer;
+  }
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    cursor: pointer;
+  }
 
 .arrow {
     position: absolute;
